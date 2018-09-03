@@ -21,5 +21,5 @@ And in another terminal
 ```
 ./client/a.out
 ```
-On receiving a request, the server will parse the request, find what images are to be sent, zip them and send them as a single zip.
-The client will receive the zip file, unzip it, save the images in 'client' folder, build the HTML file and open it in the preferred browser.
+On receiving a request, the server will parse the request, find what images are to be sent and send them to the client.
+The client will receive images, save them to the 'client' folder, build the HTML file and open it in the preferred browser.
