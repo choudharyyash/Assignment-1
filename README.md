@@ -32,4 +32,5 @@ Change permissions of all files to 775
 2. *Browser not opening up*
 All the images will be downloaded but the browser will fail to open saying 
 > Running Firefox as root in a regular user's session is not supported.
+
 The HTML file will be built. The problem is just that it is not opening. This is due to not running as root.
