@@ -26,7 +26,7 @@ And in another terminal
 On receiving a request, the server will parse the request, find what images are to be sent and send them to the client.
 The client will receive images, save them to the 'client' folder, build the HTML file and open it in the preferred browser.
 
-## Possible Problems
+## Possible Problems that could be faced
 1. Problems related to permissions
 Change permissions of all files to 775
 2. *Browser not opening up*
