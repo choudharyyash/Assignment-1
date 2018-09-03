@@ -25,6 +25,16 @@ And in another terminal
 ```
 On receiving a request, the server will parse the request, find what images are to be sent and send them to the client.
 The client will receive images, save them to the 'client' folder, build the HTML file and open it in the preferred browser.
+ 
+**## Contributions**
+
+server.c : Yash
+
+client.c : Kushagra
+
+parse.sh, x.sh,c.sh : Kushagra and Pardhu 
+
+Docker Image: Yash 
 
 ## Possible Problems that could be faced
 1. Problems related to permissions
