@@ -1,21 +1,23 @@
 ## Assignment 1: Minions
 >> *NOTE*: All commands to be executed from the project root folder only
 
-To build the server do 
-```
-cd server
-gcc server.c
-cd ..
-```
 To build the client, do
 ```
 cd client
 gcc client.c
 cd ..
 ```
-For a demonstration of how everything works, start the server on one terminal
+
+To build the server do 
 ```
-./server/a.out
+docker pull cashchoudhary/server_side
+docker run --net="host" -it cashchoudhary/server_side
+```
+
+To start the server do (inside the container)
+```
+gcc server.c
+./a.out
 ```
 And in another terminal
 ```
