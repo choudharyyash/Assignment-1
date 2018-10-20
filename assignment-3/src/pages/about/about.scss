@@ -1,0 +1,33 @@
+page-about {
+
+}
+h1 {
+  font-family: "Times New Roman";
+  text-align:center;
+   font-size: 40px;
+}
+
+div {
+   text-align:center;
+   color:#85144b;
+   font-size: 30px;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-fill-mode: forwards;
+ }
+ ion-title{
+   font-family: "Times New Roman";
+   text-align:center;
+    font-size: 40px;
+
+
+ }
+
+
+
+/* Standard syntax */
+@keyframes example {
+   from {color: #FFFFFF;}
+   to {color: #000000;}
+
+}
